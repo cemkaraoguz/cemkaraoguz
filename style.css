@@ -1,0 +1,150 @@
+html {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+body {
+  color: #515151;
+}
+
+div {
+  display: block;
+}
+
+a {
+  color: #999999;
+  text-decoration: none
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+}
+
+h3 {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1.1rem;
+}
+
+
+h1, h2, h3, h4 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #333;
+  letter-spacing: -.025rem;
+}
+
+h4 {
+  color: #999999;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: gainsboro;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.flex-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.container {
+  max-width: 34rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5rem 1rem;
+}
+
+.publication {
+  margin-top: 15px;
+  display: flex;
+}
+
+.pub-content-div {
+  width: 24rem;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  line-height: normal;
+}
+
+.pub-img-div {
+  max-width: 10rem;
+}
+
+.pub-desc {
+  margin-top: 16px;
+}
+
+.pub-img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pub-header {
+  color: #333;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding: 0px;
+}
+
+strong {
+  color: #333;
+}
+
+.img-me {
+  max-width: 170px;
+}
+
+.pub-list {
+  margin-top: 40px;
+}
+
+a:hover, a:focus {
+    border-bottom-color: brown;
+    border-bottom: 1px dotted;
+    color: #444444;
+}
+
+.my_ital {
+  color: chocolate;
+}
+
+.self-photo {
+  width: 10rem;
+  margin-left: 0px;
+}
+
+.self-info {
+  width: 24rem;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.self-links {
+  text-align: justify;
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
